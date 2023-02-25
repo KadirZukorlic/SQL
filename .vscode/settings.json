@@ -1,16 +1,6 @@
 {
 	"sqltools.connections": [
 		{
-			"previewLimit": 50,
-			"server": "localhost",
-			"port": 5432,
-			"askForPassword": true,
-			"driver": "PostgreSQL",
-			"database": "postgres",
-			"username": "postgres",
-			"name": "postgres"
-		},
-		{
 			"mysqlOptions": {
 				"authProtocol": "default"
 			},
@@ -18,10 +8,20 @@
 			"server": "localhost",
 			"port": 3306,
 			"driver": "MySQL",
-			"database": "default",
+			"database": "talently",
 			"username": "root",
 			"name": "mysql1",
 			"askForPassword": true
+		},
+		{
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 5432,
+			"askForPassword": true,
+			"driver": "PostgreSQL",
+			"database": "talently",
+			"username": "postgres",
+			"name": "postgres"
 		}
 	]
 }
