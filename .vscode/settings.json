@@ -8,7 +8,7 @@
 			"server": "localhost",
 			"port": 3306,
 			"driver": "MySQL",
-			"database": "talently",
+			"database": "online_shop",
 			"username": "root",
 			"name": "mysql1",
 			"askForPassword": true
@@ -19,7 +19,7 @@
 			"port": 5432,
 			"askForPassword": true,
 			"driver": "PostgreSQL",
-			"database": "talently",
+			"database": "online_shop",
 			"username": "postgres",
 			"name": "postgres"
 		}
