@@ -1,6 +1,6 @@
--- DROP TABLE users;
--- DROP TABLE employers;
--- DROP TABLE conversations;
+DROP TABLE users;
+DROP TABLE employers;
+DROP TABLE conversations;
 
 -- CREATE TYPE employment_status AS ENUM('self-employed', 'employed', 'unemployed'); -- postgresql
 
@@ -33,3 +33,6 @@ CREATE TABLE conversations (
     message TEXT NOT NULL,
     date_sent TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+INSERT INTO users (first_name, last_name, yearly_salary, current_status)
+VALUES ('Hamza', 'Zukorlic', 19000, 'self-employed')
