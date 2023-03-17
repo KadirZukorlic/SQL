@@ -1,16 +1,6 @@
 {
 	"sqltools.connections": [
 		{
-			"previewLimit": 50,
-			"server": "localhost",
-			"port": 5432,
-			"askForPassword": true,
-			"driver": "PostgreSQL",
-			"database": "sales_example",
-			"username": "postgres",
-			"name": "postgres"
-		},
-		{
 			"mysqlOptions": {
 				"authProtocol": "default"
 			},
@@ -18,10 +8,20 @@
 			"server": "localhost",
 			"port": 3306,
 			"driver": "MySQL",
-			"database": "sales_example",
+			"database": "relations",
 			"username": "root",
 			"name": "mysql1",
 			"askForPassword": true
+		},
+		{
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 5432,
+			"askForPassword": true,
+			"driver": "PostgreSQL",
+			"database": "relations",
+			"username": "postgres",
+			"name": "postgres"
 		}
 	]
 }
