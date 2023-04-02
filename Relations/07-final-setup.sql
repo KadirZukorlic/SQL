@@ -1,8 +1,7 @@
 CREATE TABLE projects (
     id SERIAL PRIMARY KEY, -- PostgreSQL
     title VARCHAR(300) NOT NULL,
-    deadline DATE,
-
+    deadline DATE
 );
 
 CREATE TABLE company_buildings (
@@ -37,6 +36,6 @@ CREATE TABLE intranet_accounts (
 -- Intermediate table => n:n (many to many) relations
 CREATE TABLE projects_employees (
     id SERIAL PRIMARY KEY, -- PostgreSQL
-    employee_id INT REFERENCES employee ON DELETE CASCADE,
+    employee_id INT REFERENCES employees ON DELETE CASCADE,
     project_id INT REFERENCES projects ON DELETE CASCADE
     );
