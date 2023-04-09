@@ -19,7 +19,7 @@
 			"port": 5432,
 			"askForPassword": true,
 			"driver": "PostgreSQL",
-			"database": "relations",
+			"database": "restaurants",
 			"username": "postgres",
 			"name": "postgres"
 		}
