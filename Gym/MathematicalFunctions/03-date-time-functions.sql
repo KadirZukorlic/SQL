@@ -15,8 +15,8 @@
 -- FROM memberships; -- Last day in week postgreSQL (DOW - 0 sunday - 7 saturday; ISODOW - 1 monday - 7 sunday)
 
 -- postgreSQL
-SELECT last_checkin::TIMESTAMP::DATE, last_checkin::TIMESTAMP::TIME
-FROM memberships;
+-- SELECT last_checkin::TIMESTAMP::DATE, last_checkin::TIMESTAMP::TIME
+-- FROM memberships;
 
 -- WEEKDAY mySQL
 -- SELECT WEEKDAY(last_checkin) + 1, last_checkin
