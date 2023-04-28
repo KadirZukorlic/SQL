@@ -1,6 +1,6 @@
 -- START TRANSACTION; -- MySQL
 
-BEGIN; -- postgreSQL
+-- BEGIN; -- postgreSQL
 
 
 -- INSERT INTO customers(

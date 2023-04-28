@@ -1,1 +1,3 @@
-START TRANSACTION;
+-- START TRANSACTION; -- mysql
+
+BEGIN; --postgreSQL
