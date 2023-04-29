@@ -8,7 +8,7 @@
 			"server": "localhost",
 			"port": 3306,
 			"driver": "MySQL",
-			"database": "relations",
+			"database": "indexes",
 			"username": "root",
 			"name": "mysql1",
 			"askForPassword": true
@@ -19,7 +19,7 @@
 			"port": 5432,
 			"askForPassword": true,
 			"driver": "PostgreSQL",
-			"database": "gym",
+			"database": "indexes",
 			"username": "postgres",
 			"name": "postgres"
 		}
