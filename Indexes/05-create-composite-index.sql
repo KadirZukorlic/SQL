@@ -1,0 +1,1 @@
+CREATE INDEX multiaddr ON addresses (street, city); -- order in paranthesis is important
