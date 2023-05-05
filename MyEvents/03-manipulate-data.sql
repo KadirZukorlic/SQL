@@ -19,3 +19,5 @@
 --     20,
 --     16
 -- );
+
+-- DELETE FROM events WHERE id > 2;
