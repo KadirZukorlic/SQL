@@ -1,19 +1,6 @@
 {
 	"sqltools.connections": [
 		{
-			"mysqlOptions": {
-				"authProtocol": "default"
-			},
-			"previewLimit": 50,
-			"server": "localhost",
-			"port": 3306,
-			"driver": "MySQL",
-			"database": "indexes",
-			"username": "root",
-			"name": "mysql1",
-			"askForPassword": true
-		},
-		{
 			"previewLimit": 50,
 			"server": "localhost",
 			"port": 5432,
@@ -22,6 +9,19 @@
 			"database": "my_events",
 			"username": "postgres",
 			"name": "postgres"
+		},
+		{
+			"mysqlOptions": {
+				"authProtocol": "default"
+			},
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 3306,
+			"driver": "MySQL",
+			"database": "my_events",
+			"username": "root",
+			"name": "mysql1",
+			"askForPassword": true
 		}
 	]
 }
