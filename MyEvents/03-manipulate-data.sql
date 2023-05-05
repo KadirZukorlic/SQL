@@ -20,4 +20,8 @@
 --     16
 -- );
 
+UPDATE events
+SET min_age = 14
+WHERE id = 1;
+
 -- DELETE FROM events WHERE id > 2;
