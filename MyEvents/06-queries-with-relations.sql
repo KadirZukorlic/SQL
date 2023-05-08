@@ -32,4 +32,5 @@
 
 SELECT * FROM cities AS c
 LEFT JOIN locations AS loc ON loc.city_name = c.name
-INNER JOIN events AS e ON e.location_id = loc.id;
+INNER JOIN events AS e ON e.location_id = loc.id
+WHERE e.date_planned > '2025-01-01';
